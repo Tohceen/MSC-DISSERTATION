@@ -1,5 +1,7 @@
 Title: Predicting Variation in Daily Martian Atmospheric Temperature Using Machine Learning Techniques
 
+Data Source: https://www.emiratesmarsmission.ae/
+
 This dissertation source presents the findings of a study that explores the use of machine learning techniques to predict variation in daily Martian atmospheric temperature. According to research and explorations conducted on Mars, it was believed that the planet once supported life. This resulted from evidence indicating the presence of water and a thick warm atmosphere on Mars in the past, making the red planet an intriguing target for exploration. As technological tools have evolved with advancements in science and technology, machine learning has become an essential technical tool for Mars exploration.
 
 This study focuses on the use of machine learning techniques to analyze Mars' weather patterns for possible habitation of life. The study relied on data obtained from the Emirates Mars Mission (EMM) datasets, specifically the EMM EMIRS instrument database. Various techniques such as exploration, preprocessing, model development, and evaluations were performed on the dataset to predict the variation in daily atmospheric temperatures on Mars.
