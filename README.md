@@ -11,3 +11,36 @@ The study developed seven machine learning models, including Random Forest, Line
 The results showed that Random Forest outperformed all other six models used in this work, with scores as follows: RMSE = 1.5525, MSE = 2.4105, MAE = 1.1939, and R2 = 0.8283. The scores obtained were visualized to aid in understanding and interpreting the results. Overall, this study demonstrates the effectiveness of machine learning techniques in predicting temperature variation on Mars, providing important implications for future missions to the red planet. This dissertation source includes detailed information on the study's methodology, data analysis, and key findings, as well as recommendations for future research and practical applications.
 
 This study was conducted as part of a Masters degree in big data science and technology and submitted to the University of Bradford, Faculty of Engineering and Informatics, as a requirement for the completion of the degree program.
+
+Data Description:
+sclk: The spacecraft clock time in seconds
+sclk_sub: A sub-clock count in units of 1/91,250 seconds
+det_num: The number of the detector used for the measurement
+target_type_num: A numerical code identifying the target type
+utc: The Coordinated Universal Time of the measurement
+incidence: The angle between the incidence angle and the target surface normal in degrees
+emission: The angle between the emission angle and the target surface normal in degrees
+phase: The angle between the incidence and emission angles in degrees
+bore_flag: A flag indicating whether the bore-sight of the instrument was used
+nfov: The angle subtended by the narrow field of view of the instrument in degrees
+scan_period: The period of the instrument's scan in seconds
+ra: The right ascension of the target in degrees
+dec: The declination of the target in degrees
+x2d: The x-coordinate of the target in the instrument's 2D image
+y2d: The y-coordinate of the target in the instrument's 2D image
+npts2d: The number of points used in the 2D image
+temp: The temperature of the target in Kelvin
+shift: The shift of the target in the instrument's 2D image
+tsurfco2: The surface temperature of the target in Kelvin
+chi2temp: The chi-squared value for the temperature fit
+pres0: The pressure at the target in Pascals
+taudust: The dust optical depth
+
+Developer Tools:
+Programming Language: Python
+IDE: Vscode & Colab
+GUI: wxPython, wxFormBuilder
+Web Scraping: BeautifulSoup, ParseHub
+Debugging & Testing: Jupyter Notebook
+Data Format: Microsoft Excel
+
